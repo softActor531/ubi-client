@@ -1,0 +1,16 @@
+.pad-small {
+  font-size: 1rem !important;
+  line-height: 1.088rem !important;
+}
+.pad-medium {
+  font-size: 1.4rem !important;
+  line-height: 1.488rem !important;
+}
+.pad-large {
+  font-size: 1.8rem !important;
+  line-height: 1.888rem !important;
+}
+.pad-xlarge {
+  font-size: 2.2rem !important;
+  line-height: 2.288rem !important;
+}

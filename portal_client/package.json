@@ -1,0 +1,68 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/core": "^1.0.0-next.2",
+    "@chakra-ui/theme-tools": "^1.0.0-next.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/classnames": "^2.2.10",
+    "@types/d3-timer": "^1.0.9",
+    "@types/fscreen": "^1.0.1",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/sharedb": "^1.0.8",
+    "@types/twilio-video": "^2.0.12",
+    "autoprefixer": "^9.8.4",
+    "classnames": "^2.2.6",
+    "d3-timer": "^1.0.10",
+    "easy-peasy": "^3.3.1",
+    "fscreen": "^1.0.2",
+    "npm-run-all": "^4.1.5",
+    "postcss-import": "^12.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "reconnecting-websocket": "^4.2.0",
+    "sdb-ts": "git+https://github.com/jaxyeh/sdb-ts.git",
+    "sharedb": "^1.0.0-beta",
+    "sharedb-string-binding": "^1.0.0",
+    "tailwindcss": "^1.4.6",
+    "twilio-chat": "^3.4.0",
+    "twilio-video": "^2.6.0",
+    "typescript": "^3.9.5",
+    "ws": "^7.3.1"
+  },
+  "scripts": {
+    "build:tailwind": "npx tailwindcss build src/theme/tailwind.css -o src/theme/tailwind.gen.css",
+    "start": "run-p build:tailwind start:react",
+    "start:react": "react-scripts start",
+    "prebuild": "npm run build:tailwind",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:3001"
+}

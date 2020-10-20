@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bd22cb34.chunk.css",
+    "main.js": "/static/js/main.ebb69dad.chunk.js",
+    "main.js.map": "/static/js/main.ebb69dad.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c8a21426.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c8a21426.js.map",
+    "static/js/2.56650997.chunk.js": "/static/js/2.56650997.chunk.js",
+    "static/js/2.56650997.chunk.js.map": "/static/js/2.56650997.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e1afee7a5957d2b7578b8c8639a5d989.js": "/precache-manifest.e1afee7a5957d2b7578b8c8639a5d989.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.bd22cb34.chunk.css.map": "/static/css/main.bd22cb34.chunk.css.map",
+    "static/js/2.56650997.chunk.js.LICENSE.txt": "/static/js/2.56650997.chunk.js.LICENSE.txt",
+    "static/media/ubiaccess-logo.png": "/static/media/ubiaccess-logo.94adaa7b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8a21426.js",
+    "static/js/2.56650997.chunk.js",
+    "static/css/main.bd22cb34.chunk.css",
+    "static/js/main.ebb69dad.chunk.js"
+  ]
+}
