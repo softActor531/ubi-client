@@ -33,10 +33,6 @@ const RTTClient = () => {
     getToken({ userName: queryName, roomName: queryRoom });
   }
 
-  // setUserName('jax');
-  // setRoomName('examples');
-  // setToken("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzgwYTA0NmQyZWNhY2IxNTYwZWM0MTQ1Y2RlNDNlZmJjLTE1OTQyNjkwOTEiLCJncmFudHMiOnsiaWRlbnRpdHkiOiJqYXgiLCJ2aWRlbyI6eyJyb29tIjoiZXhhbXBsZXMifSwiY2hhdCI6eyJzZXJ2aWNlX3NpZCI6IklTOTVkYjk1ODE3YjJjNDFlNWFlZDE1ZjEzZDA1NDhkYjUifX0sImlhdCI6MTU5NDI2OTA5MSwiZXhwIjoxNTk0MjcyNjkxLCJpc3MiOiJTSzgwYTA0NmQyZWNhY2IxNTYwZWM0MTQ1Y2RlNDNlZmJjIiwic3ViIjoiQUNhYmY2MzlhOGMyNDFjNmU4MDgzY2ZiNGMyZjU4Nzk3YSJ9.3P2bR_2kiAnOBqnR9ILajy4QEGeMT2bpt_KY7tyG0CA");
-
   const handleUsernameChange = useCallback(event => {
     setUserName(event.target.value);
   }, [setUserName]);
